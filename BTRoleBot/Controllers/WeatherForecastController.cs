@@ -7,6 +7,7 @@ using Microsoft.Extensions.Logging;
 
 namespace BTRoleBot.Controllers
 {
+    // this default controller exists because the hosting where this bot is hosted requires at least one controller
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
